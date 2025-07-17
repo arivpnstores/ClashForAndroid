@@ -1,0 +1,107 @@
+proxies:
+#=//=# Telegram > t.me/lunatech_store #=//=#
+#=//=# Telegrum > t.me/lunatech_channel #=//=#
+  - name: SG-VIP
+    server: ava.game.naver.com
+    port: 443
+    type: trojan
+    password: 2aeaee7c-1b93-4399-8188-740e0a7db10b
+    skip-cert-verify: true
+    sni: sgvip.serverpremium.web.id
+    network: ws
+    ws-opts:
+      path: ?sni=trojan
+      headers:
+        Host: sgvip.serverpremium.web.id
+    udp: true
+  - name: SG-VVIP
+    server: ava.game.naver.com
+    port: 443
+    type: trojan
+    password: 2678a2ce-b1f4-4560-8bfd-e47fd626d84c
+    skip-cert-verify: true
+    sni: sgvvip.serverpremium.web.id
+    network: ws
+    ws-opts:
+      path: ?sni=trojan
+      headers:
+        Host: sgvvip.serverpremium.web.id
+    udp: true
+  - name: SG-VVIP2
+    server: ava.game.naver.com
+    port: 443
+    type: trojan
+    password: 44332362-6422-448e-93a5-78cc21e5e9c7
+    skip-cert-verify: true
+    sni: sgvvip2.serverpremium.web.id
+    network: ws
+    ws-opts:
+      path: ?sni=trojan
+      headers:
+        Host: sgvvip2.serverpremium.web.id
+    udp: true
+  - name: SG-VVIP3
+    server: ava.game.naver.com
+    port: 443
+    type: trojan
+    password: 3b522b0f-c11f-4cf9-be16-46cbb263d998
+    skip-cert-verify: true
+    sni: sgvvip3.serverpremium.web.id
+    network: ws
+    ws-opts:
+      path: ?sni=trojan
+      headers:
+        Host: sgvvip3.serverpremium.web.id
+    udp: true
+  - name: SG-TEAM1
+    server: ava.game.naver.com
+    port: 443
+    type: trojan
+    password: 0bd66246-3950-4901-b38f-41b4553d5acb
+    skip-cert-verify: true
+    sni: team1.serverpremium2.web.id
+    network: ws
+    ws-opts:
+      path: ?sni=trojan
+      headers:
+        Host: team1.serverpremium2.web.id
+    udp: true
+  - name: SG-TEAM2
+    server: ava.game.naver.com
+    port: 443
+    type: trojan
+    password: 851f0780-ec05-44ec-808a-6b681e1b6bc6
+    skip-cert-verify: true
+    sni: team2.serverpremium2.web.id
+    network: ws
+    ws-opts:
+      path: ?sni=trojan
+      headers:
+        Host: team2.serverpremium2.web.id
+    udp: true
+  - name: ID-NUSA
+    server: ava.game.naver.com
+    port: 443
+    type: trojan
+    password: 7c367036-4050-4022-a3ca-16ff1e03db36
+    skip-cert-verify: true
+    sni: idnusa.serverpremium.web.id
+    network: ws
+    ws-opts:
+      path: ?sni=trojan
+      headers:
+        Host: idnusa.serverpremium.web.id
+    udp: true
+  - name: ID-NUSASTB
+    server: ava.game.naver.com
+    port: 443
+    type: trojan
+    password: d3a63302-ef1c-47e7-9bba-d703fa5a7060
+    skip-cert-verify: true
+    sni: idnusastb.serverpremium.web.id
+    network: ws
+    ws-opts:
+      path: ?sni=trojan
+      headers:
+        Host: idnusastb.serverpremium.web.id
+    udp: true
